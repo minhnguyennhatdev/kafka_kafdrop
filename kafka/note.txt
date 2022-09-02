@@ -1,0 +1,27 @@
+#adonisjs lifecycle:
+request -> 
+1. server level middleware
+2. router
+3. global middleware
+4. named middleware
+5. downstream middleware
+-> response
+
+#meme
+config/kardiachain
+proxy ultimate loadbalancer
+
+#command
+redis-cli / redis-server
+bin/zookeeper-server-start.sh config/zookeeper.properties
+bin/kafka-server-start.sh config/server.properties
+docker -compose up
+
+clear kafka
+rm -rf /tmp/kafka-logs /tmp/zookeeper
+
+#increase topic
+./bin/kafka-topics.sh --bootstrap-server=localhost:9091 --topic test --alter --partitions 4
+
+#knowlegde
+redis pipeline
